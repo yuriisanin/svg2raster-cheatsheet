@@ -140,8 +140,6 @@ Pseudorandom number generators:
 
 [Supported tags](https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/fill)
 
-filter - attribute
-
 rect:
 ```xml
 <rect width="100" height="100" fill="url(http://internal-resource)"></rect>
