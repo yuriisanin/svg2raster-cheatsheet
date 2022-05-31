@@ -115,7 +115,7 @@ image:
 
 #### CSS infinite loading via @import rule
 
-Some CSS engines don't check for the self-references during ```@import``` rule processing. This could be used for DoS scenarios by triggering infinite CSS loading using specially crafted [styles file](). 
+Some CSS engines don't check for the self-references during ```@import``` rule processing. This could be used for DoS scenarios by triggering infinite CSS loading using specially crafted [styles file](https://github.com/yuriisanin/svg2raster-cheatsheet/blob/d31633146d62863b71b1dbdb40b8703f7b1abcc1/assets/css-infinite-import.css). 
 
 ![css-infinite-import]()
 
