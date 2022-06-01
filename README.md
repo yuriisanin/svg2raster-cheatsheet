@@ -115,9 +115,9 @@ image:
 
 #### CSS infinite loading via @import rule
 
-Some CSS engines don't check for the self-references during ```@import``` rule processing. This could be used for DoS scenarios by triggering infinite CSS loading using specially crafted [styles file](https://github.com/yuriisanin/svg2raster-cheatsheet/blob/d31633146d62863b71b1dbdb40b8703f7b1abcc1/assets/css-infinite-import.css). 
+Some CSS engines don't check for the self-references during ```@import``` rule processing. This could be used for DoS scenarios by triggering infinite CSS loading using specially crafted [styles file](assets/css-infinite-import.css). 
 
-![css-infinite-import](https://github.com/yuriisanin/svg2raster-cheatsheet/blob/63a07f7c5dd91b3c577ff31a143c253b50cf5c79/assets/svg-infinite-css-import.png)
+![css-infinite-import](assets/svg-infinite-css-import.png)
 
 #### Infinite loading using ```/dev/random```
 
@@ -213,6 +213,8 @@ Apache Batik offers script execution capabilities from the box. It uses Mozilla 
     </script>
 </svg>
 ```
+  
+![batik-code-execution](assets/batik-code-execution.gif)
 
 1. Server-Side Request Forgery:
 
