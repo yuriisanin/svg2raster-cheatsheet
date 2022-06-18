@@ -23,10 +23,10 @@
   - [XML External Entities](#xml-external-entities)
   - [Libraries](#libraries)
     - [Apache Batik (Java)](#apache-batik-java)
-      - [Exceptions:](#exceptions)
+      - [Exceptions](#exceptions)
     - [SVG.NET (.NET)](#svgnet-net)
     - [CairoSVG (Python)](#cairosvg-python)
-      - [Exceptions:](#exceptions-1)
+      - [Exceptions](#exceptions-1)
 
 <!-- /TOC -->
 
@@ -313,7 +313,7 @@ Old but gold. Most of the libraries don't allow to use XML external entities or 
 | [Embedded/External Scripts](#apache-batik-javascript) | <ul><li>**Disabled [Default]**</li><li>**Enabled (OPTION: KEY_EXECUTE_ONLOAD)**</li></ul>Supported scripts:<ul><li>```text/ecmascript```</li><li>```text/javascript```</li><li>```text/javascript```</li><li>```application/ecmascript```</li><li>```application/javascript```</li></ul>Related CVEs:<ul><li>[CVE-2005-0508, Apache Batik < 1.5.1](https://nvd.nist.gov/vuln/detail/CVE-2005-0508)</li></ul> |
 | [External entities & DTD](#xml-external-entities) | <ul><li>**Disabled [Default]**</li><li>**Enabled (N/A)**</li></ul><br>Related CVEs:<ul><li>[CVE-2015-0250, Apache Batik < 1.7.1](https://nvd.nist.gov/vuln/detail/CVE-2017-5662)</li><li>[CVE-2017-5662, Apache Batik < 1.9](https://nvd.nist.gov/vuln/detail/CVE-2017-5662)</li></ul>
 
-#### Exceptions:
+#### Exceptions
 
 | Name | Message |
 | - | - |
@@ -355,7 +355,7 @@ Repository: https://github.com/svg-net/SVG
 | External DTD / Entities | - | 
 | Ecmascript processing | - |
 
-#### Exceptions:
+#### Exceptions
 
 | Name | Message |
 | - | - |
