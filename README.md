@@ -364,3 +364,7 @@ Repository: https://github.com/svg-net/SVG
 | urllib.error.URLError | urlopen error [Errno 2] No such file or directory: '{filename}' |
 | urllib.error.URLError | urlopen error [Errno 61] Connection refused |
 | xml.etree.ElementTree.ParseError | syntax error: line 1, column 0 |
+
+## Support
+
+You can follow me on [Twitter](https://twitter.com/SaninYurii), [GitHub](https://github.com/yuriisanin) or [YouTube](https://www.youtube.com/channel/UCLN2EvGxtnucEdrI21PmJZg).
